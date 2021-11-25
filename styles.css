@@ -47,6 +47,7 @@
 }
 
 .button {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: pink;
     border: 2px solid white;
     top: 250px;
