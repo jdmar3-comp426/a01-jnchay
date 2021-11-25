@@ -1,0 +1,61 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.body {
+    background-color: gray;
+}
+
+.links {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left:0;
+    background-color: #111;
+}
+
+#linkheader {
+    text-align: center;
+    color: white;
+}
+.links a{
+    color: white;
+    padding: 16px;
+    display: block;
+    text-decoration: none;
+}
+
+.links a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: mediumseagreen;
+    text-align: center;
+}
+
+.content {
+    top: 100px;
+    position: fixed;
+    margin-left: 150px;
+}
+
+.button {
+    background-color: pink;
+    border: 2px solid white;
+    top: 250px;
+    position: fixed;
+    margin-left: 225px;
+}
+
+.button:hover {
+    background-color: aquamarine;
+    color: black;
+    border: black;
+}
